@@ -1,0 +1,40 @@
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    width: 50vw;
+    margin: 50px auto;
+    background-color: lightseagreen;
+    padding: 15px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+.btn-parent{
+    display: flex;
+    justify-content: center;
+}
+.btn-parent button{
+    padding: 9px;
+    font-size: 2vw;
+    margin: 10px;
+    border: none;
+    border-radius: 12px;
+    background-color: black;
+    color: white;
+}
+.btn-parent button:hover{
+    background-color: gray;
+    color: black;
+}
+.container span{
+    font-size: 8vw;
+}
+.box input{
+    padding: 5px;
+}

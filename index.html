@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Count-Down-Timer</title>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    
+    <div class="container" id="container-main">
+ 
+        <div class="box">
+       <h1> <span for="" id="hours" class="span">0</span><span>:</span></h1>
+        <input type="text" placeholder="Enter Hours" onkeyup="putValueHour(this)" class="inp" >
+    </div>
+
+    <div class="box">
+        <h1>  <span for="" id="min" class="span">0</span><span>:</span></h1>
+        <input type="text" placeholder="Enter Mins" class="inp"  onkeyup="putValueMins(this)">
+    </div>
+
+
+    <div class="box">
+       <h1> <span for="" id="sec" class="span">0</span> </h1>
+        <input type="text" placeholder="Enter Second" class="inp" onkeyup="putValueSec(this)">
+    </div>
+
+    </div>
+
+    <div class="btn-parent">
+        <button onclick="decrementTimer()" id="start">Start</button>
+        <button onclick="stopTimer()" hidden id="stop">Stop</button>
+        <button onclick="resetTimer()" hidden id="reset">Reset</button>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
